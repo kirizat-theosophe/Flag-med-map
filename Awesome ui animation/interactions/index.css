@@ -1,0 +1,56 @@
+body{
+    background: #DCF5FF;
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-family: 'Nunito', 'sans-serif';
+}
+.conainer{
+    width: 30%;
+    background: white;
+    border-radius: 10px;
+
+}
+
+
+.inner{
+    background: rgb(7, 218, 165);
+    padding: 1rem;
+    border-radius: 10px;
+    width: calc(100% -2em);
+    clip-path: inset(0% 0% 0% 100%);
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+        
+}
+
+/*:hover{
+    clip-path: circle(75%);
+    background: #00B6FF;
+}*/
+/*span{
+    float: right;
+    color: white;
+    font-weight: bold;
+    transition: color .5s;
+    position: relative;
+    margin-right: 4%;
+}*/
+
+
+h1 {
+    color: white;
+    margin: 0;
+
+}
+p {
+    color: white;
+    font-size: .8rem;
+}
+ :hover .inner{
+    clip-path: inset(0% 50% 0% 0%);
+    
+}
+

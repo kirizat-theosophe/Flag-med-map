@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    background: #111;
+}
+body{
+    background: silver;
+    height: 2150px;
+    width: 85vw;
+    margin: 25px auto;
+}
+
+#header{
+    background: navy;
+    height: 200px;
+    width: 100%;
+}
+#nav{
+    background:lightblue;
+    height: 40px;
+    width: 100%;
+}
+#first-page{
+    background: lightseagreen;
+    height: 500px;
+    width: 100%;
+}
+#second-page{
+    background: lightsalmon;
+    height: 850px;
+    width: 100%;
+}
+
+#third-page{
+    background: lightskyblue;
+    height: 500px;
+    width: 100%;
+}

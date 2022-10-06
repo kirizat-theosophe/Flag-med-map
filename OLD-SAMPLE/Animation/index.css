@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 170px repeat(4, auto);
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.kobe {
+    width: 120px;        
+}
+
+.ball {
+    width: 60px;
+    opacity: 1
+}
